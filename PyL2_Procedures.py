@@ -83,10 +83,10 @@ for c in(contact):
         ok = True
         print("Contact trouvé : ", c)
 if c == False:
-    print("Contact Non trouvé")
+    print("Contact Non trouvé")"""
 
-#pour supprimer un élément
-suppr = str(input("Elément à supprimer: "))
+ #pour supprimer un élément
+"""suppr = str(input("Elément à supprimer: "))
 for c in(contact):
     if suppr in c["Nom"] or suppr in c["Numero"] :
         contact.remove(c)
@@ -102,9 +102,9 @@ for c in(contact):
     
 
 
-"""#procédures de calculs le montant des heures supplémentaires d’un employé
+#procédures de calculs le montant des heures supplémentaires d’un employé
 
-nb = int(input("Le nombre d'heures travaillées : "))
+"""nb = int(input("Le nombre d'heures travaillées : "))
 prix = float(input("prix unitaire"))
 total = 0
 if nb<40:
@@ -204,8 +204,8 @@ def Vn(a,b,n):
 print(Un(1, 3, 2))"""
 
 
-"""#procédure examen
-notes =[]
+#procédure examen
+"""notes =[]
 somme = 0
 for i in range(3):
     a = float(input(f"Notes{i+1} : "))
@@ -234,13 +234,11 @@ else:
     print("le reste est : ", a%b)"""
     
 
-"""#Procédure absolu
-a = int(input("Valeur 1 : "))
+#Procédure absolu
+"""a = int(input("Valeur 1 : "))
 b = int(input("Valeur 2 : "))
 
 if abs(a)>abs(b):
     print(abs(a))
 else :
     print(abs(b))"""
-
-    
